@@ -1,0 +1,16 @@
+singleQuote: true
+plugins:
+  - '@ianvs/prettier-plugin-sort-imports'
+  - 'prettier-plugin-multiline-arrays'
+importOrder:
+  - '<BUILT_IN_MODULES>'
+  - 'bun'
+  - ''
+  - '^react'
+  - '<THIRD_PARTY_MODULES>'
+  - ''
+  - '^(@/.*)$'
+  - ''
+  - '^[.]'
+# for @ianvs/prettier-plugin-sort-imports, uses newer versions of import syntax
+importOrderTypeScriptVersion: '5.4.5'
